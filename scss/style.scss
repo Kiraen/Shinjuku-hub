@@ -1,0 +1,108 @@
+// MAIN CONFIG
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  background: #222;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+// NAVIGATION
+.header-nav {
+  background: #333;
+  height: 8.4rem;
+  width: 100%;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.logo > p {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.logo-navbar {
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 8rem;
+}
+
+.navigation {
+  display: flex;
+  width: 82%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 1rem;
+  color: white;
+}
+
+// MAIN CONTENT
+
+.container {
+  margin: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16.1rem;
+}
+
+.template-card-video {
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+// FOOTER
+
+.footer {
+  background: #333;
+  height: 8.4rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-p {
+  font-size: 1.4rem;
+  padding-bottom: 0.8rem;
+}
+
+.footer > p i {
+  color: rgb(253, 119, 208);
+  font-size: 1.2rem;
+}
+
+.date {
+  font-size: 2.5rem;
+}
